@@ -1,0 +1,31 @@
+### Inversion of Control
+
+It is a software design principle where control, flow of program , object creation and dependency management is shifted from custom code to the external framework or container
+
+ex : Intstead of creating of objects with new , we delegate that responsibility to spring IOC container 
+
+### Dependency Injection 
+
+The client delegates it's reponsibilities of it's dependencies to another object
+
+a software design pattern where an object receives its required services or dependencies from an external source rather than creating them itself
+
+#### Injection types
+
+- Constructer injection - Use this when you have required dependencies
+- Setter injection - Use this when you have optional dependencies with reasonable fallbacks
+
+### Spring Container
+
+- Primary funtions : 
+  - Create and manage objects ( Inversion of control )
+  - Inject object dependencies ( Dependency injection )
+
+### @Component annotation
+
+- It marks a class as a spring bean
+- Bean is a regular class that is management by spring
+- Use component annotation makes the class available for dependency injection
+
+
+
